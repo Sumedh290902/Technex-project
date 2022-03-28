@@ -1,0 +1,64 @@
+.html-form{
+    padding: 50px;
+    width: 5px;
+    height: 2px;
+    border-width: 2px;
+    box-shadow: black;
+ }
+.html-form form{
+    background-image: url(file:///C:/Users/DELL/OneDrive/Pictures/tree-789%20-%20Copy.webp);
+    margin: 10px;
+    padding-right: 40px;
+    border-width: 20px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow:black;
+    text-align: left;
+}
+.html-form form h2{
+    text-align: center;
+    color: #ff96ad;
+    box-shadow: 0 0 25px #ff96ad,0 0 50px #ff96ad,0 0 25px  #ff96ad,0 0 200px#ff96ad ;
+    width: 135px;
+    margin-left: 95px;
+    font-family:'Gill Sans';
+}
+.html-form form input{
+    width: 80%;
+    margin: 20px;
+    padding: 8px; 
+    text-align: left;
+    border-radius: 6px;
+    border: none;
+    border-left: 4px solid orange;
+    border-right: 4px solid orange;
+    font-family:'Lucida Sans';
+ }
+ .html-form form input:hover{
+    border-color: blue;
+ }
+ .html-form form select{
+     width: 90%;
+     margin: 10px;
+     padding: 5px;
+     border-radius: 5px;
+     outline: none;
+     border-left: solid orange;
+     border-right: solid orange;
+ }
+ .html-form form select:hover{
+    border-color: blue;
+ }
+.html-form form button{
+    padding:10px;
+    border: none;
+    background-color: orange;
+    color:blue;
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 12px;
+}
+.html-form form button:hover{
+    background-color: green ;
+}
